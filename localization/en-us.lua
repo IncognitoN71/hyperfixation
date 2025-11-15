@@ -1688,7 +1688,7 @@ return {
                     {
                         "{C:hpfx_multiball,T:j_hpfx_tetoraq}Ijiraq{} is now {C:hpfx_inc_teto}Teto{} rarity.",
                         "{C:hpfx_multiball}Ijiraq{} retriggers {C:attention}once{}",
-                        "for every {C:hpfx_inc_teto}Teto{} Joker. (#2#)",
+                        "for every {C:hpfx_inc_teto}Teto{} Joker. (#1#)",
                         "{C:attention}Takes up no space."
                     },
                 },

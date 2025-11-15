@@ -21,43 +21,67 @@ __state_events__
 - Transformations on dollar bonuses
 - Splash? functionality
 
-### <ins>card.lua</ins>
+### <ins>The Binding of Isaac</ins>
 
-__Card:save()__
-- adding self properties to vars
+__state_events__
+- Mary's unlock condition
 
+__blind__
+- Blind name storing
 
-__Card:load()__
-- cardTable conversion
+### <ins>Miscellaneous</ins>
 
-__Card:open()__
-- pack content manipulation (Astronomer?)
-
-
-### <ins>common_events.lua</ins>
-
-__eval_card(card, context)__
-- storing and merging of Ijiraq's effect table
-
-__generate_card_ui(\_c, full_UI_table, specific_vars, card_type, badges, hide_desc, main_start, main_end, card)__
-- automatic Jokester descriptions
+__state_events__
+- custom post-discard context
 
 ## Overrides:
-### <ins>Game:init_game_object()</ins>
+### <ins>Inscryption</ins>
 
-__The Binding of Isaac__
-- Farmer's unlock condition
+__Blind.defeat__
+- Special Dagger's debuff tracking
 
-__Inscryption__
-- automatic run seeding
+__get_new_boss__
+- Pareidolia? functionality
 
-__4Fun__
-- Chud Joker's unlock condition
+__Card:update__
+- custom card-drag detection context
+
+__Card:calculate_joker__
+- Jokester flip animation
+
+__generate_card_ui__
+- Jokester automatic description generation
+
+__Card:set_cost__
+- Astronomer? functionality
+- Astronomer-Ijiraq functionality
+
+__Card:add_to_deck__
+- Jokester sticker application
+
+__Card:highlight__
+- SHED button toggle logic
+
+__Card:can_sell_card__
+- Priceless functionality
+- Luchador-Ijiraq functionality
+
+__Card:set_ability__
+- Boulder functionality
+
+__unlock_card__
+- Tetoraq tweaks
+
+__Game:init_game_object__
+- Costume functionality
+
+__Game:start_run__
+- Card:set_card_rate(card_kind, new_rate)
 
 ### <ins>Game:start_run(args)</ins>
 
 __Inscryption__
-- Card:set_card_rate(card_kind, new_rate)
+
 
 ### <ins>Blind:defeat(silent)</ins>
 
